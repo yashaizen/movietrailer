@@ -12,8 +12,10 @@ class Base():
 
 
 # Separate Class 'Movie' To Add a Movie Database.
-# We keep it separate so that if we want to change anything just for Movies, we can do it hassle free.
+""" We keep it separate so that if we want to change anything just for Movies,
+we can do it hassle free."""
+
+
 class Movie(Base):
     def __init__(self, title, image, trailer):
         Base.__init__(self, title, image, trailer)
-
