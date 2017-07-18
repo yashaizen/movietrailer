@@ -4,11 +4,11 @@ This program generates a webpage and run it in the browser, through the data of 
 
 # Installation:
 
-Once you have downloaded the files, go to the folder directory through your terminal.
-Type in the following commands in your terminal to run the program:
+Once you have downloaded the files:
+Type in the following commands in your terminal when you are inside root/home folder (through your terminal)  to run the program:
 
 ```
-cd movies
+cd movietrailer
 python entertainment_center.py
 ```
 
